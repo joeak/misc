@@ -95,6 +95,9 @@
 
 #### Backup images to Google Drive every night at midnight
     0 0 * * * rsync -a ~/Pictures/ ~/Google\ Drive/Pictures/
+    
+#### Run a python file through Anaconda, every 10 minutes
+    */10 * * * * cd /home/[user]/folder/ && /home/[user]/anaconda3/bin/python ./python_script.py   
 
 ---
 
