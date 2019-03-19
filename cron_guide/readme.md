@@ -81,7 +81,7 @@
 
 #### Check local domain email (for cron logs)
     cat /var/mail/[username]
-    e.g. $ cat /var/mail/josephalkadhimi
+    e.g. $ cat /var/mail/johnsmith
 
 #### Write comments in the crontab editor
     # This is a comment
